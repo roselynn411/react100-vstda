@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
-
+import ViewTodos from './components/ViewTodos';
 class App extends Component {
 
   render() {
     return (
-      <div className='container'>
-
-      </div>
+      <ViewTodos/>
     );
   }
 }
